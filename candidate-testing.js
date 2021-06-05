@@ -73,10 +73,10 @@ function gradeQuiz(candidateAnswers) {
  console.log(` " you have " ${grade}%  " and  you scored " ${numberOfCorrectAnswer} " out of 5 " ` );
 
 
-if (grade <= 80) {
-    console.log(" >>> STATUS : FAILED");
+if (grade < 80) {
+    console.log(" >>> STATUS : FAILED <<<");
     } else {
-        console.log(" >>> STATUS : PASSED");
+        console.log(" >>> STATUS : PASSED <<<");
     }
 return grade;
 
