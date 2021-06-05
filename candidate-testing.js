@@ -40,7 +40,7 @@ function askQuestion() {
 
   for ( let i = 0; i < questions.length; i++) {
       console.log(questions[i]);
-       candidateAnswer = input.question(" Your Answer : ");
+       candidateAnswer = input.question(" Your Answer: ");
     
     console.log(" Correct Answer: " + correctAnswers[i] + " \n ");
   candidateAnswers.push(candidateAnswer);
@@ -70,7 +70,7 @@ function gradeQuiz(candidateAnswers) {
  }
 
 
- console.log(` " you have " ${grade}%  " and  you scored " ${numberOfCorrectAnswer} " out of 5 " ` );
+ console.log(` >>> Overall Grade:  ${grade}% ( ${numberOfCorrectAnswer}   of 5 responses correct) <<< ` );
 
 
 if (grade < 80) {
