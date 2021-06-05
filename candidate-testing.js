@@ -11,7 +11,7 @@ let correctAnswer = ("Sally Ride");
 let candidateAnswer = [];
 
 let questions = [" 1) : Who was the first American woman in space? " ,
- " 2) : True or false: 5 kilometer = 5000 meters?" ,
+ " 2) : True or false: 5 kilometer == 5000 meters?" ,
 
   " 3) :(5 + 3)/2 * 10 = ?" , 
   " 4) Given the array [8, 'Orbit', 'Trajectory', 45], what entry is at index 2?" , 
@@ -77,7 +77,7 @@ if (grade < 80) {
 console.log(" >>> STATUS: FAILED <<<");
 
      } else {
-         
+
 console.log(" >>> STATUS: PASSED <<<");
 
    
