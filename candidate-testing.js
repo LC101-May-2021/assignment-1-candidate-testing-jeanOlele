@@ -32,7 +32,7 @@ let candidateAnswers = [];
 function askForName() {
   // TODO 1.1b: Ask for candidate's name //
 
-candidateName = input.question("Enter your Name: ");
+candidateName = input.question("Candidate Name: ");
 }
 
 function askQuestion() {
@@ -40,9 +40,9 @@ function askQuestion() {
 
   for ( let i = 0; i < questions.length; i++) {
       console.log(questions[i]);
-       candidateAnswer = input.question("Your Answer : ");
+       candidateAnswer = input.question(" Your Answer : ");
     
-    console.log(" Correct Answer : " + correctAnswers[i] + " \n ");
+    console.log(" Correct Answer: " + correctAnswers[i] + " \n ");
   candidateAnswers.push(candidateAnswer);
 
 
