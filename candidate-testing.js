@@ -10,7 +10,7 @@ let question =  (" #1 : Who was the first American woman in space? ");
 let correctAnswer = ("Sally Ride");
 let candidateAnswer = [];
 
-let questions = [" 1) : Who was the first American woman in space?" ,
+let questions = [" 1) : Who was the first American woman in space? " ,
  " 2) : True or false: 5 kilometer = 5000 meters?" ,
 
   " 3) :(5 + 3)/2 * 10 = ?" , 
@@ -70,13 +70,21 @@ function gradeQuiz(candidateAnswers) {
  }
 
 
- console.log(` >>> Overall Grade:  ${grade}% ( ${numberOfCorrectAnswer}   of 5 responses correct) <<< ` );
+ console.log(` >>> Overall Grade:  ${grade}% (${numberOfCorrectAnswer} of 5 responses correct) <<< ` );
 
 
 if (grade < 80) {
-    console.log(" >>> STATUS : FAILED <<<");
-    } else {
-        console.log(" >>> STATUS : PASSED <<<");
+console.log(" >>> STATUS: FAILED <<<");
+
+     } else {
+         
+console.log(" >>> STATUS: PASSED <<<");
+
+   
+
+
+    
+        
     }
 return grade;
 
