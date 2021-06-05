@@ -6,7 +6,7 @@ const input = require('readline-sync');
 
 let candidateName = (" ");
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
-let question =  (" #1 : Who was the first American woman in space? ");
+let question =  (" 1) : Who was the first American woman in space? ");
 let correctAnswer = ("Sally Ride");
 let candidateAnswer = [];
 
@@ -14,7 +14,7 @@ let questions = [" 1) : Who was the first American woman in space? " ,
  " 2) : True or false: 5 kilometer == 5000 meters?" ,
 
   " 3) :(5 + 3)/2 * 10 = ?" , 
-  " 4) Given the array [8, 'Orbit', 'Trajectory', 45], what entry is at index 2?" , 
+  ' 4) Given the array [8, "Orbit", "Trajectory", 45], what entry is at index 2?' , 
   " 5) : What is the minimum crew size for the ISS?"
   ];
 
@@ -42,7 +42,7 @@ function askQuestion() {
       console.log(questions[i]);
        candidateAnswer = input.question(" Your Answer: ");
     
-    console.log(" Correct Answer: " + correctAnswers[i] + " \n ");
+    console.log("Correct Answer: " + correctAnswers[i] + " \n ");
   candidateAnswers.push(candidateAnswer);
 
 
@@ -70,7 +70,7 @@ function gradeQuiz(candidateAnswers) {
  }
 
 
- console.log(` >>> Overall Grade:  ${grade}% (${numberOfCorrectAnswer} of 5 responses correct) <<< ` );
+ console.log(` >>> Overall Grade: ${grade}% (${numberOfCorrectAnswer} of 5 responses correct) <<< ` );
 
 
 if (grade < 80) {
@@ -98,7 +98,7 @@ function runProgram() {
   askForName();
   // TODO 1.1c: Ask for candidate's name //
 
-  //console.log("Hello :" + " " + candidateName);
+  console.log("Hello :" + " " + candidateName);
   
   askQuestion();
   gradeQuiz(this.candidateAnswers);
