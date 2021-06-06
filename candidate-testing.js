@@ -70,7 +70,7 @@ function gradeQuiz(candidateAnswers) {
  }
 
 
- console.log(` >>> Overall Grade: ${grade}% (${numberOfCorrectAnswer} of 5 responses correct) <<< ` );
+ console.log(` " >>> Overall Grade:" ${grade}% (${numberOfCorrectAnswer} "of 5 responses correct) <<< " ` );
 
 
 if (grade < 80) {
