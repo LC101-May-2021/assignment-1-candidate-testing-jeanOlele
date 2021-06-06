@@ -11,15 +11,15 @@ let correctAnswer = "Sally Ride";
 let candidateAnswer = [];
 
 let questions = [
-    " Who was the first American woman in space?" ,
+    "1) : Who was the first American woman in space?" ,
 
-    " True or false: 5 kilometer == 5000 meters?" ,
+    "2) : True or false: 5 kilometer == 5000 meters?" ,
 
-    " (5 + 3)/2 * 10 = ?" ,
+    "3) :(5 + 3)/2 * 10 = ?" ,
 
-    ' Given the array [8, "Orbit", "Trajectory", 45], what entry is at   index 2?' , 
+    '4) Given the array [8, "Orbit", "Trajectory", 45], what entry is at   index 2?' , 
     
-    " What is the minimum crew size for the ISS?"
+    "5) : What is the minimum crew size for the ISS?"
   ];
 
 let correctAnswers = [
