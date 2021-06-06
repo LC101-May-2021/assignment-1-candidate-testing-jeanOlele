@@ -63,10 +63,10 @@ function gradeQuiz(candidateAnswers) {
 
  for ( let i = 0; i < candidateAnswers.length; i++){
         
-        if(candidateAnswers[i].toLocaleUpperCase() === correctAnswers[i].toLocaleUpperCase()
-    numberOfCorrectAnswer++
+        if(candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()) {
+        numberOfCorrectAnswer++  ;
 }
-    grade = ((numberOfCorrectAnswer / 5) * (100) )
+    grade = numberOfCorrectAnswer / 5 * 100 ;
  }
 
 
