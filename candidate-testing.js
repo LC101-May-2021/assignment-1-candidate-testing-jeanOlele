@@ -71,9 +71,9 @@ function gradeQuiz(candidateAnswers) {
         if(candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()) {
         numberOfCorrectAnswer++  ;
 }
-    grade = numberOfCorrectAnswer / 5 * 100 ;
+   
  }
-
+ grade = numberOfCorrectAnswer / 5 * 100 ;
 
  console.log(` " >>> Overall Grade: " ${grade}% (${numberOfCorrectAnswer} "of 5 responses correct) <<< " ` );
 
